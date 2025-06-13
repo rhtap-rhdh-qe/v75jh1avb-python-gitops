@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: v75jh1avb-python
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: v75jh1avb-python 
+  name: v75jh1avb-python
+spec:
+  ports:
+  - port: 8081 
+    targetPort: 8081 
+  selector:
+    app.kubernetes.io/instance: v75jh1avb-python 

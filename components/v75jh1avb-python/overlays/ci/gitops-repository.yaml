@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: v75jh1avb-python-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/v75jh1avb-python-gitops
